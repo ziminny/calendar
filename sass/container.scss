@@ -1,0 +1,38 @@
+.m-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.m-calendar {
+  width: 400px;
+  height: 440px;
+  background-color: $backgroundBody;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.m-header {
+  background-color: $backgroundHeader;
+  width: 400px;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  padding: 0 10px;
+  text-align: center;
+
+}
+
+.m-title {
+  font-size: 30px;
+
+}
